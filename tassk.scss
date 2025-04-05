@@ -1,0 +1,83 @@
+$primary-color: #007bff;
+$secondary-color: #f8f9fa;
+$dark-color: #343a40;
+$light-color: #f1f1f1;
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+#home {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+#services {
+  background-color: $secondary-color;
+}
+
+#portfolio {
+  background-color: $light-color;
+}
+
+#about {
+  background-color: $secondary-color;
+}
+
+#favourites {
+  background-color: $light-color;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.portfolio-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: $dark-color;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+}
